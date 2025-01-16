@@ -1,4 +1,4 @@
-name: Build-padavan-rm2100-firmware
+name: Build-rm2100
 
 on:
   workflow_dispatch:
