@@ -36,7 +36,8 @@ jobs:
         sudo apt-get -qq -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
         cpio git python-docutils gettext automake autopoint texinfo build-essential help2man \
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
-          sudo timedatectl set-timezone "Asia/Shanghai"
+        sudo timedatectl set-timezone "Asia/Shanghai"
+        curl -q -Ls ip.im/info
 
     - name: Clone source and Download toolchain
       if: (!cancelled())
